@@ -11,6 +11,7 @@ Subindo ambiente dev:
     git clone git@github.com:VOCE/fflch.github.io.git
     cd fflch.github.io
     bundle config set --local path 'vendor/bundle'
-    bundle _2.3.26_ install
+    bundle _2.3.26_ update
+    bundle install
     bundle exec jekyll serve
 
